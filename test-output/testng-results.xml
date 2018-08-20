@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="End to End Suite" duration-ms="198318" started-at="2018-08-20T09:53:40Z" finished-at="2018-08-20T09:56:58Z">
+    <groups>
+    </groups>
+    <test name="Chrome" duration-ms="198318" started-at="2018-08-20T09:53:40Z" finished-at="2018-08-20T09:56:58Z">
+      <class name="com.deere.testCases.GSCTestCases">
+        <test-method status="PASS" signature="initTestSuite()[pri:0, instance:com.deere.testCases.GSCTestCases@9e345f]" name="initTestSuite" is-config="true" duration-ms="112" started-at="2018-08-20T15:23:40Z" finished-at="2018-08-20T15:23:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestSuite -->
+        <test-method status="PASS" signature="initWebDriver(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.deere.testCases.GSCTestCases@9e345f]" name="initWebDriver" is-config="true" duration-ms="4994" started-at="2018-08-20T15:23:40Z" finished-at="2018-08-20T15:23:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.deere.testCases.GSCTestCases.test_TC6585_GSCButtons(com.deere.global.InputEnvironmentDetails,com.deere.global.InputTestDetails)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method status="PASS" signature="test_TC6585_GSCButtons(com.deere.global.InputEnvironmentDetails, com.deere.global.InputTestDetails)[pri:0, instance:com.deere.testCases.GSCTestCases@9e345f]" name="test_TC6585_GSCButtons" duration-ms="185513" started-at="2018-08-20T15:23:45Z" data-provider="TEST_DATA_PROVIDER" finished-at="2018-08-20T15:26:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.deere.global.InputEnvironmentDetails@1a6a256]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.deere.global.InputTestDetails@55b40c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_TC6585_GSCButtons -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult, java.lang.String)[pri:0, instance:com.deere.testCases.GSCTestCases@9e345f]" name="tearDown" is-config="true" duration-ms="7798" started-at="2018-08-20T15:26:50Z" finished-at="2018-08-20T15:26:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_TC6585_GSCButtons status=SUCCESS method=GSCTestCases.test_TC6585_GSCButtons(com.deere.global.InputEnvironmentDetails, com.deere.global.InputTestDetails)[pri:0, instance:com.deere.testCases.GSCTestCases@9e345f] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endSuite()[pri:0, instance:com.deere.testCases.GSCTestCases@9e345f]" name="endSuite" is-config="true" duration-ms="611" started-at="2018-08-20T15:26:58Z" finished-at="2018-08-20T15:26:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSuite -->
+      </class> <!-- com.deere.testCases.GSCTestCases -->
+    </test> <!-- Chrome -->
+  </suite> <!-- End to End Suite -->
+</testng-results>
